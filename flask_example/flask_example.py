@@ -12,8 +12,6 @@ app = flask.Flask(__name__)
 
 @app.route("/")
 def flask_example():
-    """ Very simple embedding of a polynomial chart
-    """
     p = figure()
     x = [1, 2, 3, 4, 5]
     y = [6, 7, 2, 4, 5]
